@@ -9,7 +9,7 @@
 ;
 ;  This program is free software; you can redistribute it and/or
 ;  modify it under the terms of the GNU General Public License
-;  as published by the Free Software Foundation; using version 2
+;  as published by the Free Software Foundation; using version 3
 ;  of the License.
 ;
 ;     16-9-2010 v.1.0 IgorM 
