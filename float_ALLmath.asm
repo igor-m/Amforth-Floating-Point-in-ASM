@@ -11,7 +11,7 @@
 ;  as published by the Free Software Foundation; using version 2
 ;  of the License.
 ;
-;  Igorm (c) 2010-2015;
+;  IgorM (c) 2010-2015;
 ;  v 1.0.
 ;
 ; Note:
