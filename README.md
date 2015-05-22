@@ -21,7 +21,7 @@ All the files that make up this library are copyright 2010 and 2015 by IgorM.
 
   This program is free software; you can redistribute it and/or
   modify it under the terms of the GNU General Public License
-  as published by the Free Software Foundation; using version 2
+  as published by the Free Software Foundation; using version 3
   of the License.
 
   This program is distributed in the hope that it will be useful,
