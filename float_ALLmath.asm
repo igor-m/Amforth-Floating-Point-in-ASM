@@ -10,12 +10,14 @@
 ;  modify it under the terms of the GNU General Public License
 ;  as published by the Free Software Foundation; using version 3
 ;  of the License.
-;
-;  IgorM (c) 2010-2015;
-;  v 1.0.
+;  
+;  IgorM (copyright) 2011-2015;
+;  v 1.1. 10-10-2011
+;  v 1.2. 12-6-2012
+;  v 1.3. 15-5-2015
 ;
 ; Note:
-; Please do add in the template.asm following float stack, 50bytes required:
+; Please add following float stack into the template.asm , 50bytes required:
 ; 
 ; addresses of various data segments
 ; .set rstackstart = RAMEND      ; start address of return stack, grows downward
