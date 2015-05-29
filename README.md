@@ -4,7 +4,7 @@ A. 5_floating point primitives written in .asm for Amforth:
 f+  f-  f*  f/  fsqrt
 
 B. ALL_floating point functions written in .asm for Amforth:
-f+  f-  f*  f/  fsqrt fsin fcos ftan fasin facos .. etc.
+f+  f-  f*  f/  fsqrt fsin fcos ftan fasin facos fatan fatan2 fsinh fcosh ftanh flog fexp .. etc. 
 
 These words shall replace the original forth fp words in the Leon's fp library in order to boost the speed significantly.
 The ALL_floating points lib adds another usually expected math words.
