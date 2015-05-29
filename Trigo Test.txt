@@ -4,7 +4,7 @@
 \ more results you may find at:
 \ http://www.rskey.org/~mwsebastian/miscprj/results.htm
 \ IgorM 5/2015, GNU GPL v3
-\ No warrantis of any kind
+\ No warranties of any kind
 
 -trig9
 marker -trig9

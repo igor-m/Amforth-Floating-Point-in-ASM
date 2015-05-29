@@ -1,8 +1,8 @@
 \ Big Torture TEST for float lib
 \
 \ Note:
-\ The "shall be" results are more precise than could
-\ be calculated with single precision -> for info only
+\ The "shall be" results are with more precision digits than could
+\ be calculated in amforth with 32bit IEE-754 single precision
 \
 \ Also remove tests where the math functions are not 
 \ available in the library
@@ -61,8 +61,8 @@ cr ." large positive and negative" cr
 $ffff $ff7f fs. ." shall be -3.402823466e+38 "  cr
 $ffff $7f7f fs.	." shall be 3.402823466e+38 "  cr
 
-\ sinus
-cr ." sinus" cr
+\ sin
+cr ." sin" cr
 180 s>f deg2rad fsin fs. ." shall be 0.000000 "  cr
 90 s>f deg2rad fsin fs. ." shall be 1.000000 "  cr
 -180 s>f deg2rad fsin fs. ." shall be 0.000000 "  cr
@@ -81,8 +81,8 @@ cr ." sinus" cr
 -225 s>f deg2rad fsin fs. ." shall be 0.707106781 "  cr
 -315 s>f deg2rad fsin fs. ." shall be 0.707106781 "  cr
 
-\ cosinus
-cr ." cosinus" cr
+\ cos
+cr ." cos" cr
 180 s>f deg2rad fcos fs. ." shall be -1.000000 "  cr
 90 s>f deg2rad fcos fs. ." shall be 0.000000 "  cr
 -180 s>f deg2rad fcos fs. ." shall be -1.000000 "  cr
